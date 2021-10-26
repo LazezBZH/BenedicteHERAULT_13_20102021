@@ -5,7 +5,11 @@ export default function Header() {
   return (
     <nav class="main-nav">
       <Link to="/">
-        <img src={logo} alt="logo de argentBank" />
+        <img
+          className="main-nav-logo-image"
+          src={logo}
+          alt="logo de argentBank"
+        />
         <h1 class="sr-only">Argent Bank</h1>
       </Link>
 
