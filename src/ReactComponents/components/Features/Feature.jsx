@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 export default function Feature({ img, alt, title, text }) {
   return (
     <div className="feature-item">
@@ -7,3 +9,10 @@ export default function Feature({ img, alt, title, text }) {
     </div>
   );
 }
+
+Feature.propTypes = {
+  img: PropTypes.string.isRequired,
+  alt: PropTypes.number.isRequired,
+  title: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired,
+};

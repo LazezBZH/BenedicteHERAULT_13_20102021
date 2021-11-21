@@ -1,3 +1,5 @@
+//data for Home page
+
 import chat from "../assets/icon-chat.png";
 import money from "../assets/icon-money.png";
 import security from "../assets/icon-security.png";

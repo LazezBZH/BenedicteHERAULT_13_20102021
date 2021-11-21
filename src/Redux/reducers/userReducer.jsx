@@ -1,5 +1,9 @@
 import { createReducer } from "@reduxjs/toolkit";
 
+/**
+ * @reducer
+ */
+
 import { loadUser, loadUserError, loadUserSuccess } from "../actions/getUser";
 import { logOut } from "../actions/logout";
 import { editUser, editUserSuccess, editUserError } from "../actions/editUser";

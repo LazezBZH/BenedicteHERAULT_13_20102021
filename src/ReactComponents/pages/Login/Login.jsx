@@ -4,6 +4,12 @@ import { Navigate } from "react-router";
 
 import { getToken } from "../../../utils/getApi";
 
+/**
+ * Login component to display user's profile page
+ * @name Login
+ * @returns {JSX}
+ */
+
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");

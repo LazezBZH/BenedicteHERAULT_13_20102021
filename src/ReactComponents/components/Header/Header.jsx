@@ -3,6 +3,13 @@ import { useDispatch, useSelector } from "react-redux";
 import { logOut } from "../../../Redux/actions/logout";
 import logo from "../../../assets/argentBankLogo.png";
 
+/**
+ * fonction to log out if connected
+ * @function
+ * @name logout
+ * @returns {object}
+ */
+
 export const logout = () => {
   localStorage.removeItem("token");
   return (dispatch) => {

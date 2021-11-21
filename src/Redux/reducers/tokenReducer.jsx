@@ -1,5 +1,9 @@
 import { createReducer } from "@reduxjs/toolkit";
 
+/**
+ * @reducer
+ */
+
 import {
   loadToken,
   loadTokenError,

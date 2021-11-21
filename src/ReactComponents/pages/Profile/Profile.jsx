@@ -7,6 +7,18 @@ import Account from "../../components/Account/Account";
 
 import { editUsers } from "../../../utils/getApi";
 
+/**
+ * User component to display user's page
+ * @name User
+ * @returns {JSX}
+ */
+
+/**
+ * Edit function to modify user's name
+ * @name Edit
+ * @returns {JSX}
+ */
+
 const User = () => {
   const [editName, setEditName] = useState(false);
   const [newFirstName, setNewFirstName] = useState("");

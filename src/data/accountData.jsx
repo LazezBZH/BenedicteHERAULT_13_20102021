@@ -1,3 +1,5 @@
+//data for Profile page
+
 const accountData = [
   {
     id: "account-01",

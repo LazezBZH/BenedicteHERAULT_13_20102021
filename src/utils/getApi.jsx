@@ -18,6 +18,15 @@ import baseUrl from "./baseUrl";
 
 axios.defaults.baseURL = baseUrl;
 
+/**
+ * to get user's token
+ * @function
+ * @name getToken
+ * @param {string} email
+ * @param {string} password
+ * @returns {object}
+ */
+
 export const getToken = (email, password) => {
   return (dispatch) => {
     dispatch(loadToken());
@@ -38,6 +47,14 @@ export const getToken = (email, password) => {
   };
 };
 
+/**
+ * to get user's infos
+ * @function
+ * @name getUser
+ * @param {string} token
+ * @returns {object}
+ */
+
 export const getUser = (token) => {
   return (dispatch) => {
     dispatch(loadUser());
@@ -54,6 +71,15 @@ export const getUser = (token) => {
       });
   };
 };
+
+/**
+ * to edit user's name
+ * @function
+ * @name editUsers
+ * @param {string} firstname
+ * @param {string} lastname
+ * @returns {object}
+ */
 
 export const editUsers = (firstName, lastName) => {
   const token = localStorage.getItem("token");

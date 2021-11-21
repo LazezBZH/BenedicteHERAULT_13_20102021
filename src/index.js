@@ -6,8 +6,6 @@ import { Provider } from "react-redux";
 import store from "./Redux/store/store";
 import App from "./ReactComponents/App/App";
 
-import "./index.css";
-
 console.log(store);
 
 ReactDOM.render(
