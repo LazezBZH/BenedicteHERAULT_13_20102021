@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Navigate } from "react-router";
+import PropTypes from "prop-types";
 
 import accountData from "../../../data/accountData";
 import Account from "../../components/Account/Account";
@@ -107,20 +108,26 @@ const User = () => {
             value="Edit Name"
           />
         )}
+
+        <h3 className="sr-only">Accounts</h3>
+
+        {accountData.map((account, index) => (
+          <Account
+            key={index}
+            title={account.title}
+            amount={account.amount}
+            description={account.description}
+          />
+        ))}
       </main>
-
-      <h3 className="sr-only">Accounts</h3>
-
-      {accountData.map((account, index) => (
-        <Account
-          key={index}
-          title={account.title}
-          amount={account.amount}
-          description={account.description}
-        />
-      ))}
     </>
   );
+};
+
+Account.propTypes = {
+  amount: PropTypes.number.isRequired,
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
 };
 
 export default User;

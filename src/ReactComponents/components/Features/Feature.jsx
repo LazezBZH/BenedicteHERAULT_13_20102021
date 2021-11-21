@@ -12,7 +12,7 @@ export default function Feature({ img, alt, title, text }) {
 
 Feature.propTypes = {
   img: PropTypes.string.isRequired,
-  alt: PropTypes.number.isRequired,
+  alt: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   text: PropTypes.string.isRequired,
 };
