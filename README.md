@@ -46,7 +46,10 @@ Bénédicte Hérault
 run both in the same time
 
 ## Documents
-- [Old version](https://github.com/LazezBZH/BenedicteHERAULT_13_20102021/tree/main/oldVersion) 
+- [Old version](https://github.com/LazezBZH/BenedicteHERAULT_13_20102021/tree/main/Documentation/oldVersion) 
+- [Wiframes](https://github.com/LazezBZH/BenedicteHERAULT_13_20102021/tree/main/Documentation/wireframes) 
+- [Transactions part swagger](https://github.com/LazezBZH/BenedicteHERAULT_13_20102021/blob/main/Documentation/swagger.yaml) 
+- [Slide](https://github.com/LazezBZH/BenedicteHERAULT_13_20102021/blob/main/Documentation/Diapo%20P13%20B%C3%A9n%C3%A9dicte%20H%C3%A9rault.pdf) 
 
 
 ![logo](https://raw.githubusercontent.com/LazezBZH/BenedicteHERAULT_13_20102021/main/src/assets/argentBankLogo.png)
